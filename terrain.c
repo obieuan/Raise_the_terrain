@@ -45,10 +45,10 @@ int main(int argc, char **argv)
 				a = Angle * M_PI / 180;
 				SDL_SetRenderDrawColor(ren, 0, 0, 0, 255);
 				SDL_RenderClear(ren);
-				rotategrid(ren, argv, a);
+				girar(ren, argv, a);
 			}
 		}
 	}
-	Destroy_Quit(ren, win);
+	salir(ren, win);
 	return (0);
 }

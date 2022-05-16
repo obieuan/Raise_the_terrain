@@ -30,12 +30,12 @@ void makeiso(SDL_Point ***isogrid, char **argv);
 void All_isogrid(SDL_Renderer *ren, char **argv);
 void Drawgrid(SDL_Renderer *ren, SDL_Point ***grid);
 void makerot(SDL_Point ***grid, float a);
-void rotategrid(SDL_Renderer *ren, char **argv, float a);
+void girar(SDL_Renderer *ren, char **argv, float a);
 
 
 void freegrid(SDL_Point ***grid);
 void freenumbers(int **numbers);
-void Destroy_Quit(SDL_Renderer *ren, SDL_Window *win);
+void salir(SDL_Renderer *ren, SDL_Window *win);
 
 
 
